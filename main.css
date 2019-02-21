@@ -1,0 +1,66 @@
+.top-bar {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: red;
+    
+}
+h1 {
+    height: auto;
+   position: absolute;
+    padding-left: 5px;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    top: 20px;
+    
+}
+#portfolio-link {
+    width: 60px;
+    height: 25px;
+    position: fixed;
+    top: 35px;
+    right: 215px;
+    text-align: center;
+    float:left;
+    border-right: 1px solid grey;
+    padding-right: 5px;
+    
+}
+
+#contact-link {
+    width: 60px;
+    height: 25px;
+    position: fixed;
+    top: 35px;
+    right: 95px;
+    float: left;
+    text-align: center;
+    border-left: 1px solid grey;
+    padding-left: 5px;
+   
+}
+#bio-link {
+    width: 60px;
+    height: 25px;
+    position: fixed;
+    top: 35px;
+    right: 150px;
+    float: left;
+}
+#namebox {
+    height: 100px;
+    width: 220px;
+    background-color: green;
+    position: relative;
+    top: 0;
+    left: 150px
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
